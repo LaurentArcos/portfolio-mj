@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'InriaSans-Regular';
+  src: url('./assets/fonts/InriaSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InriaSans-Light';
+  src: url('./assets/fonts/InriaSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InriaSans-Bold';
+  src: url('./assets/fonts/InriaSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InriaSans-BoldItalic';
+  src: url('./assets/fonts/InriaSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InriaSans-Italic';
+  src: url('./assets/fonts/InriaSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'InriaSans-LightItalic';
+  src: url('./assets/fonts/InriaSans-LightItalic.ttf') format('truetype');
+}
