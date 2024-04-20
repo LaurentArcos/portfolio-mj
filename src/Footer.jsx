@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="footer-container">
       <Link to="/projets">Projets</Link>
       <Link to="/about">À propos</Link>
-      <Link to="/email">Email</Link>
+      <Link>Email</Link>
     </div>
   </footer>
 );

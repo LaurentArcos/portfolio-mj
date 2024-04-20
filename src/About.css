@@ -1,0 +1,79 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.top-section {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 50px 0;
+  padding-bottom: 20px;
+  border-bottom: 3px solid white;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.right-side {
+  width: 30%;
+}
+
+.right-side img {
+  width: 100%;
+  height: auto;
+}
+
+
+.central-text {
+  margin: 30px 0;
+}
+
+.paysage-container {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.paysage-container img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.project-link {
+  position: absolute;
+  right: 35px;
+  bottom: 30px;
+  background-color: white;
+  color: #FFA500;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 70px 0;
+  border-top: 3px solid white;
+}
+
+.info-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.info-section img {
+  width: 35%;
+}
+
+.info-section p {
+  align-self: center;
+  width: 50%;
+  padding: 20px 0;
+}
