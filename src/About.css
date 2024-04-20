@@ -47,8 +47,8 @@
 
 .project-link {
   position: absolute;
-  right: 35px;
-  bottom: 30px;
+  right: 5%;
+  bottom: 20%;
   background-color: white;
   color: #FFA500;
   padding: 10px 25px;
@@ -76,4 +76,92 @@
   align-self: center;
   width: 50%;
   padding: 20px 0;
+}
+
+
+
+@media (max-width: 550px) {
+  .about {
+    font-size: 0.6rem;
+  }
+  
+  .top-section {
+    display: flex;
+    gap: 0px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+  }
+  
+  .left-side {
+    width: 50%;
+  }
+
+  .left-side h1 {
+    margin: 10px 0 0;
+  }
+  
+  .right-side {
+    width: 60%;
+  }
+  
+  .right-side img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .central-text {
+    margin: 10px 0;
+  }
+  
+  .paysage-container {
+    position: relative;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .paysage-container img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+  }
+  
+  .project-link {
+    position: absolute;
+    right: 3%;
+    bottom: 20%;
+    background-color: white;
+    color: #FFA500;
+    padding: 4px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .info-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0;
+    border-top: 1px solid white;
+  }
+  
+  .info-section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .info-section img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .info-section p {
+    align-self: center;
+    width: 45%;
+    padding: 0;
+  }
+  
+  
 }

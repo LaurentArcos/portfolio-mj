@@ -1,5 +1,3 @@
-
-
 .project-description {
   padding-bottom: 50px;
   margin-bottom: 50px;
@@ -9,7 +7,7 @@
 
 .images-container-1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 30px;
   margin: 50px 0;
   gap: 50px;
@@ -22,7 +20,7 @@
 
 .images-container-2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 30px;
   margin: 50px 0;
   gap: 50px;
@@ -30,7 +28,7 @@
 }
 
 .images-container-2 img {
-  width: 33%;
+  width: 30%;
 }
 
 .split-images {
@@ -57,22 +55,22 @@
 }
 
 .right img {
-  margin-bottom: 10px; /* Adjust based on your layout needs */
+  margin-bottom: 10px; 
 }
 
-.title-container {
+.title-container-projets {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 80px;
 }
 
-.title-dot {
+.title-dot-projets {
   width: 30px;
   height: 30px;
   background-color: #FDB771;
   border-radius: 50%;
-  margin-right: 10px;
+  
 }
 
 .title-text-idees {
@@ -99,4 +97,111 @@
   width: 60%;
   align-self: center;
   font-weight: bold;
+}
+
+
+
+@media (max-width: 550px) {
+  .project-description {
+    padding-bottom: 22px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid white;
+    font-size: 0.6rem;
+  }
+  
+  .images-container-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 10px 0;
+    gap: 20px;
+    max-width: 100%;
+  }
+  
+  .images-container-1 img {
+    width: 45%;
+  }
+  
+  .images-container-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 10px 0 25px;
+    gap: 10px;
+    max-width: 100%;
+  }
+  
+  .images-container-2 img {
+    width: 30%;
+  }
+  
+  .split-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+  
+  .left {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  .right {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .right img {
+    margin-bottom: 10px; 
+  }
+  
+  .title-container-projets {
+    margin-top: 10px;
+  }
+  
+  .title-dot-projets {
+    width: 10px;
+    height: 10px;
+    background-color: #FDB771;
+    border-radius: 50%;
+    
+  }
+  
+  .title-text-idees {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .ideas-block {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 25px;
+  }
+  
+  .ideas-block img {
+    width: 40%;
+    height: auto;
+  }
+  
+  .ideas-block p {
+    width: 50%;
+    align-self: center;
+    font-weight: bold;
+    font-size: 0.6rem;
+    padding: 5px;
+  }
+  
+  
 }

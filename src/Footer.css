@@ -38,3 +38,18 @@
   position: absolute;
   right: 0;
 }
+
+
+
+@media (max-width: 550px) {
+
+  .Footer {
+    width: 100%;
+    padding: 0px;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.65rem;
+  }
+  
+}

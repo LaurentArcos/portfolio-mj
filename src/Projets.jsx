@@ -43,8 +43,8 @@ const Projets = () => {
         </div>
       </div>
 
-      <div className="title-container">
-        <span className="title-dot"></span>
+      <div className="title-container-projets">
+        <span className="title-dot-projets"></span>
         <div className="title-text-idees">Mes idées</div>
       </div>
 

@@ -14,7 +14,7 @@
 .carousel-image img {
   width: 100%;
   height: auto;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 .image-profile {
@@ -23,6 +23,7 @@
 
 .image-profile img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .carousel-indicators {
@@ -103,16 +104,16 @@
 }
 
 .title-dot {
-  margin: 10px; 
-  width: 30px;
-  height: 30px;
+  margin: 10px 20px 0; 
+  width: 50px;
+  height: 50px;
   background-color: #FDB771;
   border-radius: 50%;
 }
 
 .title-text {
   color: black;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 
@@ -123,6 +124,7 @@
   flex-wrap: wrap;
   width: 80%;
   gap: 10px;
+
 }
 
 .vinyle {
@@ -133,4 +135,106 @@
   width: 30%;
   height: auto;
   padding: 5px;
+  border-radius: 0px;
+}
+
+
+@media (max-width: 550px) {
+
+
+  .carousel-indicators {
+    margin: 0px 0;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    margin: 5px;
+  }
+  
+
+  .text-section {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 20px 0;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 0.6rem;
+  }
+  
+  .text-section p {
+    width: 60%;
+  }
+  
+  .about-link {
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: #FFA500; 
+    padding: 5px 10px 5px 15px;
+    text-decoration: none; 
+    display: inline-block;
+    border-radius: 5px;
+    width: 40px;
+    align-self: center;
+  }
+  
+  .about-section .about-block {
+    padding: 0px;
+  }
+  
+  .about-block.poster .title-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .title-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;  
+  }
+  
+  .poster-title {
+   margin-right: 25px;
+  }
+  
+  .vinyle-title {
+    margin-left: 25px;
+  }
+  
+  .title-dot {
+    margin: 12px 8px 0; 
+    width: 18px;
+    height: 18px;
+    background-color: #FDB771;
+    border-radius: 50%;
+  }
+  
+  .title-text {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .images-row, .images-grid {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0px;
+    padding: 5px 0;
+  }
+  
+  .vinyle {
+    margin: 35px 0 0;
+  }
+  
+  .images-row img, .images-grid img {
+    width: 25%;
+    height: auto;
+  }
 }
