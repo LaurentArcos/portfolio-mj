@@ -1,22 +1,24 @@
 .Header {
   width: 100%;
   border-top: 3px solid white;
-  display: flex; /* Assurez-vous que Header est aussi un flex container */
+  color: white;
+  padding: 10px 0;
+  display: flex;
 }
 
 .Header-nav1, .Header-nav2 {
-  flex: 1; /* Chaque nav prend 50% de l'espace */
+  flex: 1;
   display: flex;
   align-items: center;
   padding: 10px 0;
 }
 
 .Header-nav1 {
-  justify-content: space-between; /* Répartit les éléments de nav1 sur tout l'espace disponible */
+  justify-content: space-between; 
 }
 
 .Header-nav2 {
-  justify-content: flex-end; /* Alignement à droite pour nav2 */
+  justify-content: flex-end;
 }
 
 .Header-nav div {
@@ -27,5 +29,4 @@
 .first-link a, .second-link a, .third-link a, .fourth-link a {
   text-decoration: none;
   color: white;
-  padding: 10px 15px; /* Ajoute un peu de padding autour des liens pour un meilleur clic */
 }

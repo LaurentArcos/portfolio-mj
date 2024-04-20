@@ -1,0 +1,39 @@
+.Footer {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 3px solid white;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.Footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-container {
+  position: relative;
+  height: 100%;
+}
+
+.Footer a:nth-child(1) {
+  position: absolute;
+  left: 25%;  
+}
+
+.Footer a:nth-child(2) {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+.Footer a:nth-child(3) {
+  position: absolute;
+  right: 0;
+}
