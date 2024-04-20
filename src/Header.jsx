@@ -3,11 +3,20 @@ import './Header.css';
 
 const Header = () => (
   <header className='Header'>
-    <nav>
-      <Link to="/">Monportfolio</Link>
-      <Link to="/projets">Projets</Link>
-      <Link to="/about">A propos</Link>
-      <Link to="/email">Email</Link>
+    <nav className='Header-nav1'>
+      <div className="first-link">
+        <Link to="/">Mon portfolio</Link>
+      </div><div className="second-link">    
+        <Link to="/projets">Projets</Link>
+      </div>
+      <div className="third-link">
+        <Link to="/about">À propos</Link>
+      </div>
+      </nav>
+      <nav className='Header-nav2'>
+      <div className="fourth-link">
+        <Link to="/email">Email</Link>
+      </div>
     </nav>
   </header>
 );
