@@ -77,6 +77,7 @@
   font-size: 2rem;
   color: white;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 .ideas-block {
@@ -167,8 +168,8 @@
   }
   
   .title-dot-projets {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background-color: #FDB771;
     border-radius: 50%;
     
@@ -178,6 +179,7 @@
     font-size: 1.5rem;
     color: white;
     font-weight: normal;
+    margin-left: 10px;
   }
   
   .ideas-block {
